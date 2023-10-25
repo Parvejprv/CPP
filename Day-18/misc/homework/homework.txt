@@ -1,0 +1,13 @@
+****************************************************************************************************************************
+
+Homework Question related to the function
+------------------------------------------
+1. Find the Cube of a number using the Function.
+2. Reverse a Number n using the Function,
+Constraints : -5000 <= n <= 5000
+3. there are three numbers a, b, c. Put the value of a into b, value of b into c, and value of c into a.
+4. Swap the two number without using any extra variable.
+5. Print a messageToDisplay n times using the Function.
+6. Print the Factorial of a number using function.
+
+****************************************************************************************************************************

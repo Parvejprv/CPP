@@ -1,0 +1,24 @@
+/*****************************
+Here we are just learning about
+just how to print the output, line change, and how to print the value
+with String etc.
+
+This is basically all about the Learning about taking input , printing output, and other side , variable initialization, variable declaration, we may included them in this learning with the help of some of the Just basic example.
+
+
+
+
+
+
+Questions Covered 
+-----------------
+1. Printing first Program.
+2. Hello World!
+3. How To Write Comments In Java?
+4. What is a variable in java ?
+5. Variable Declaration Syntax in Java
+6. Data Types in Java (Primitive & Non-primitive) etc.
+
+
+
+******************************/
