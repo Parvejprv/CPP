@@ -1,0 +1,5 @@
+Question 1. Find the First and Last position of the target element occurence in the sorted integer array using the binary search.
+
+Question 2. Find the index of the target element where it is to be insert into the sorted array in complexity (log N).
+
+Question 3. 

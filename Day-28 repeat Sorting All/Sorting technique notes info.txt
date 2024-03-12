@@ -1,0 +1,6 @@
+Sorting
+============
+(word file)
+Selection Sort - Day-24
+Bubble Sort - Day-25
+Insertion Sort - Day-26

@@ -1,0 +1,9 @@
+************************
+      Searching
+************************
+
+Searching is the way of finding a element from the given array. If the searching element present that means this array is equal to the searching element at the corresponding location.
+
+There are some kind of searching -
+1). Linear search
+2). Binary search

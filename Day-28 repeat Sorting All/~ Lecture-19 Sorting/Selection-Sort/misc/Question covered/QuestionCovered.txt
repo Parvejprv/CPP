@@ -1,0 +1,2 @@
+Question 1. Sort the Integer Array In Increasing Order and make it as given description ( Jo sabse bada hai ussko sabse pichhce le ke jao).
+Question 2. Sort the character array using Selection Sort Algorithm (Both Approaches Increasing and Decreasing order).

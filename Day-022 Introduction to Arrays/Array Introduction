@@ -1,0 +1,121 @@
+              *****************
+                    Array
+              *****************
+
+In C++, an array is a data structure that is used to store multiple values of similar data types in a contiguous memory location.
+
+
+Array's Properties OR Properties of Arrays in C++:-
+-----------------------------------
+
+1). An Array is a collection of data of the same data type, stored at a contiguous memory location.
+2). Indexing of an array starts from 0. It means the first element is stored at the 0th index, the second at 1st, and so on.
+3). Elements of an array can be accessed using their indices.
+4). Once an array is declared its size remains constant throughout the program.
+5). An array can have multiple dimensions.
+6). The number of elements in an array can be determined using the sizeof operator.
+7). We can find the size of the type of elements stored in an array by subtracting adjacent addresses.
+
+
+Array  Declaration in C++:-
+----------------------------
+
+In C++, we can declare an array by simply specifying the data type first and then the name of an array with its size.
+
+
+data_type array_name[Size_of_array];
+
+Example
+
+int arr[5];
+
+
+
+
+Array Initialization:-
+-------------------------
+An array can also be initialized with values during declaration. This is known as static initialization or compile
+
+There are many way to initialize the array in the C++. 
+
+1) Directly assigning values while declaring the array:-
+
+
+int arr[5] = {10, 20, 30, 40, 50};
+
+2) Assigning value one by one after declaration:-
+arr[0] = 10;
+arr[1] = 20;
+...
+
+Accessing Elements of an Array: -
+----------------------------------
+- To access any element of an array we use the index of that element followed by the name of
+the array. Indexes start from 0 and go till n-1 (where n is the
+number of elements in the array). For example if I want to access the third element of the array
+- I would write "arr[2]" because indexes starts from 0 so the first element will be
+accessed with 0 , second with 1 and so on .
+Syntax : arrayName [index]
+Example : int arr[]= {10,20,30,40,
+50} ;
+
+
+3). Assigning the array elements at the run time
+
+Here is the program that will store the elements at the run time that means dynamically,
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  int n, i;
+  cout << "Enter number of elements you want in array" << endl;
+  cin >> n; // User will enter the number of elements he/she wants in array
+  int arr[n]; // Dynamic memory allocation for array
+  cout << "Enter elements:" << endl;
+  for(i = 0; i < n; i++)
+  {
+    cin >> arr[i]; // Taking input from user and storing it into array
+  }
+  // Printing the entered elements
+  cout << "The entered elements are:\n";
+  for(i = 0; i < n; i++)
+    cout << arr[i] << "\t";//Printing tab separated values
+}
+
+
+
+4). Array Elements initialization less than the size that is inputed into it.
+
+int arr[5] = {2, 5};   
+This statement initializes only two elements of the array as 2 and 5 but the rest of elements remains uninitialized or undefined. It may contain garbage value or zero.
+So this code will print:
+2  5   ???   ???   ???
+Where ?? represents any random junk value stored in memory.
+If we try to access an index which is out of bound then it will give a runtime error
+
+5). Array Initialization with 0 in Array.
+int arr[5] = {0};
+This will initialize all the element of array 'arr' with zero. So output will be:
+0  0  0  0  0
+6). Multidimensional arrays :
+A multidimensional array or a jagged array is an array whose elements are arrays themselves
+Syntax : dataType name[size1][size2]...[sizen].
+Example : int arr[3][4]
+Here 3 represent rows and 4 represent columns.
+So total number of elements will be 3*4=12.
+Elements will be accessed using row wise first and then column wise.
+For example : arr[i][j], where i denotes the row and j denotes the column.
+7). Declaration and initialization of a two dimensional array can also be done as follows:
+dataType Name[Size1][Size2]= {{Value11, Value12,...,Val
+ue1n}, {Value21, Value22,...,Value2m}, ... ,{
+  ValueM1, ValueM2,...,ValueMn}};
+  In the above declaration Size1 is the number of rows and Size2 is the number of columns.
+  For Example :
+  int arr[3][4]= {{1,2,3,4},{5,6
+  ,7,8},{9,10,11,12}};
+  Here each inner set of braces {} contains four comma-separated values so there are three
+  sets of braces containing four comma-separated values. Hence the outer brace has three
+  pairs denoting three rows and each pair inside the outer brace contains four comma-separated
+  values denoting four columns.
+  
