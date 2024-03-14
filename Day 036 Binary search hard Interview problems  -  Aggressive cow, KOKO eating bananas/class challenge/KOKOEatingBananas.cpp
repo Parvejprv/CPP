@@ -1,4 +1,7 @@
-/*  
+/* 
+OPTIMIZED Approach
+-----------------------
+
 Question:- 
 875. KOKO eating bananas
 */
