@@ -115,6 +115,27 @@ Minimum distance between any two of them is maximum:3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  
 Solution 2: using the vector
 

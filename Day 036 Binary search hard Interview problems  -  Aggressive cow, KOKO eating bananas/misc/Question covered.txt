@@ -1,0 +1,5 @@
+********************************************
+Class Challenges that we have discussed:-
+********************************************
+1. Aggressive cow
+2. Koko eats bananas
