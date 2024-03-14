@@ -1,0 +1,61 @@
+            Selection  Sort
+          ===================
+
+Selection sort is a simple sorting algorithm that works by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning. The algorithm maintains two subarrays: one that is already sorted and another one that is unsorted. In each iteration, the minimum element from the unsorted subarray is selected and swapped with the first element of the unsorted subarray.
+
+
+Here is the algorithm for selection sort:
+
+1. Start with the entire array as the unsorted subarray.
+2. Find the minimum element in the unsorted subarray.
+3. Swap the minimum element with the first element of the unsorted subarray.
+4. Move the boundary between the sorted and unsorted subarrays one element to the right.
+5. Repeat steps 2-4 until the entire array is sorted.
+
+
+Now, let's see an example in C++:
+
+Here is the Code of the Selection sort:-
+----------------------------------------
+
+******************************************
+******************************************
+#include <iostream>
+
+void selectionSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; ++i) {
+        // Find the minimum element in the unsorted subarray
+        int minIndex = i;
+        for (int j = i + 1; j < n; ++j) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+
+        // Swap the found minimum element with the first element
+        std::swap(arr[i], arr[minIndex]);
+    }
+}
+
+int main() {
+    int arr[] = {64, 25, 12, 22, 11};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    std::cout << "Original array: ";
+    for (int i = 0; i < n; ++i) {
+        std::cout << arr[i] << " ";
+    }
+
+    selectionSort(arr, n);
+
+    std::cout << "\nSorted array: ";
+    for (int i = 0; i < n; ++i) {
+        std::cout << arr[i] << " ";
+    }
+
+    return 0;
+}
+
+
+******************************************
+******************************************
