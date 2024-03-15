@@ -13,16 +13,18 @@ using namespace std;
 
 int kokoEatingBananas(vector<int>& piles, int n, int h){
   int start = 0, end = 0, mid, ans = -1;
-
+  long long sum = 0;
   for(int i=0; i<n; i++){
-    start += piles[i];    // sum of elements
+    sum += piles[i];    // sum of elements
     end = max(end, piles[i]);   // max ele
   }
 
   // cout << "end = " << end << endl;
   // cout << "start = " << start << endl;
 
-  start /= h; 
+  start = sum / h; 
+  if(!start)
+  start = 1;
   // cout << "start = " << start << endl;
   
   while (start <= end) {
