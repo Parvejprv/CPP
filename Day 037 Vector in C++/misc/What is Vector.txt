@@ -1,0 +1,13 @@
+Standard Template Library (STL)
+=====================================
+
+What is vector?
+---------------
+In the CPP Library vector is a class template for sequence container. A Vector stores element of a given type in a linear arrangement, and allows fast random access to any element.
+
+How to declare a vector
+-------------------------
+
+1) vector<data_type> vector-name;
+1) vector<data_type> vector-name (size, initialization_val);
+2) vector<int> myVector (4, 2) - creates a vector with initial size of 4 with each element having value 2 
