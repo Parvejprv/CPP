@@ -33,7 +33,7 @@ v.capacity() - it would gives the total capacity of the vector
 
 
 
-Sorting:-
+Sorting & searching in vector:-
 ----------
 // increasing order
 sort(v.begin(), v.end())   // sort in ascending 
