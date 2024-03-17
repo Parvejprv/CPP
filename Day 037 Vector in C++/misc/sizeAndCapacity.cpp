@@ -89,6 +89,13 @@ int main() {
    cout << "\nSize of Vector W after popping is: "<<w.size();
   cout << "\nCapacity of Vector W after popping is: "<<w.capacity();
 
+
+  // to clear() - it would remove all the elements from vector
+  w.clear()
+  cout << "\nSize of Vector W after popping is: "<<w.size();
+  cout << "\nCapacity of Vector W after popping is: "<<w.capacity();
+
+  
   return 0;
 }
 
