@@ -11,3 +11,45 @@ How to declare a vector
 1) vector<data_type> vector-name;
 1) vector<data_type> vector-name (size, initialization_val);
 2) vector<int> myVector (4, 2) - creates a vector with initial size of 4 with each element having value 2 
+
+
+
+// size of the vector
+v.size() - it returns the size of the vector
+
+// capacity
+v.capacity() - it would gives the total capacity of the vector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sorting:-
+----------
+// increasing order
+sort(v.begin(), v.end())   // sort in ascending 
+order
+
+// decreasing order
+sort(v.begin(), v.ned(), greater<int>());   // it would sort the vector in decreasing  order
+
+
+
+reverse(v.begin(), v.end())    // reverse the sequence of elements
+stable_sort(v.begin(), v.end())      // maintains the relative order of equal elements
+
+binary_search(v.begin(), v.end(), val)     // binary search for an element in sorted array/vector
+
+
+
+
+
