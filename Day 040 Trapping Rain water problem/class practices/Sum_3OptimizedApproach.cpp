@@ -177,6 +177,12 @@ Result : 1
 
 
 
+
+
+
+
+
+
 /*  
 Question: Triplet sum in Array (GFG)
 link: https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1
@@ -214,5 +220,44 @@ bool find3Numbers(int A[], int n, int X)
     return false;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+// Solution 2. Using the Two pointer Approach
+TC: O(n^2)
+SC: O(1)
+
+
+bool find3Numbers(int arr[], int n, int X)
+{
+    sort(arr, arr + n); // Sorting the array first
+    
+    for(int i=0; i<n-2; i++){
+        int left = i+1;
+        int right = n-1;
+        
+        while(left < right){
+            int sum = arr[i] + arr[left] + arr[right];
+            
+            if(sum == X)
+            return true;
+            else if(sum < X)
+            left++;
+            else
+            right--;
+            
+        }
+    }
+    return false;
+}
 
 */
