@@ -1,0 +1,36 @@
+Introduction to 2D Arrays:-
+----------------------------
+
+
+
+
+
+
+
+
+
+
+Index = row-index * col + col-index
+index = 2*3 + 1 = 7  
+
+
+
+
+
+
+
+arr[i][j] = base-address + (i*col+j) *size of element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
