@@ -1,0 +1,25 @@
+Pointer in CPP
+=====================
+
+What are Pointer:
+------------------
+Pointers are symbolic representations of addresses. They enable programs to simulate call-by-reference as well as to create and manipulate dynamic data structures
+
+Syntaxt :-
+datatype *var_name;
+
+int *ptr;   // ptr can point to an address which holds int data
+
+
+int *ptr = &a;
+
+
+
+
+
+
+
+
+
+
+
