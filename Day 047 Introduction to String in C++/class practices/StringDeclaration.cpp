@@ -72,6 +72,11 @@ int main(){
 
 
 
+  // Now, Let suppose we want to print the escape sequences character  in C++
+  cout << "Parvej's Notebook" << endl;
+
+
+  
 
   return 0;
 }
@@ -86,5 +91,9 @@ Parvej is a "good" boy!
 Parvej is a "good" boy!
 
 
+Enter the string str4 : 
+Welcome to the CPP Programming.
+Welcome to the CPP Programming.
+Parvej's Notebook
 
 */
