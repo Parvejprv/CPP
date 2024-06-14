@@ -172,3 +172,98 @@ Resultant String: This is a sentence
 
 */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+Solution. 3 (Java)
+=====================
+
+
+*/
+
+
+
+
+/*  
+class Solution {
+    public String sortSentence(String s) {
+      StringBuilder temp = new StringBuilder();
+      int index = 0;
+      
+      List<String> ans = new ArrayList<>(9);
+      for(int i=0; i<9; i++){
+        ans.add("");
+      }
+      
+      
+      // Run a loop over the sentence size
+      while(index < s.length()){
+        // Check if the string has any spaces, then find its position
+        if(s.charAt(index) == ' '){
+          int pos = temp.charAt(temp.length()-1) - '0';
+          temp.setLength(temp.length() - 1);  // Remove the digit after finding pos
+          ans.set(pos - 1, temp.toString());  // Now, assign that word to ans list
+          temp.setLength(0);    // clear the temp string     
+        } else {
+          temp.append(s.charAt(index));
+        }
+        index++;
+      }
+      
+      // Handle the last word
+      if(temp.length() > 0)
+      {
+        int pos = temp.charAt(temp.length()-1) - '0';
+        temp.setLength(temp.length()-1);  // Remove
+        ans.set(pos - 1, temp.toString());
+      }
+      
+      
+      // Remove the empty string from the resultant list and join then into a single string
+      StringBuilder  result = new StringBuilder();
+      for(String str :  ans){
+        if(!str.isEmpty()) {
+          if(result.length() > 0){
+            result.append(" ");
+          }
+          result.append(str);
+        }
+      }
+      
+      return result.toString();
+      
+    }
+}
+
+*/
+
+
+
+
+
