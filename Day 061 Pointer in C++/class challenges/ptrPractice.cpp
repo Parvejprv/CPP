@@ -54,7 +54,7 @@ int main(){
   int d = 20;
   p = &d;
   cout << p << endl;       // 0x61fef4 (address of d)
-  cout << *p << endl;       // 20
+  cout << *p << endl;       // 20  (value of pointer ptr)
   int e = 80;
   p = &e;
   cout << "size of pointer p = " << sizeof(p) << endl;
