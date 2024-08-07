@@ -1,3 +1,37 @@
+/*  
+Topic:-
+===========
+
+Pointer relationship with array
+----------------------------------
+
+Let suppose an array of size 5 is given with elements as, let the base address would be 500 then,
+
+int arr[5] =  {11, 7, 8, 12, 14};
+
+int *ptr0 = &arr[0];
+int *ptr1 = &arr[1];
+int *ptr2 = &arr[2];
+int *ptr3 = &arr[3];
+int *ptr4 = &arr[4];
+
+And, 
+arr, arr+1, arr+2, arr+3, arr+4
+500,  504,   508,   512,   516
+
+Now, a question comes to mind? sir how computer know/calculate the address of ith index:-
+
+-------------------------------------------------------
+ ith index address = Base address + i * datatype-size
+-------------------------------------------------------
+
+
+
+*/
+
+
+
+
 #include<iostream>
 using namespace std;
 int main(){
