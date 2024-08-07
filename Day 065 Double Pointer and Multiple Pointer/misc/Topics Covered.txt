@@ -1,0 +1,45 @@
+
+Topic Covered:-
+================
+- Double Pointer 
+- Triple Pointer
+- Fourth Pointer
+- Multiple Pointer
+
+
+
+- Double Pointer 
+==================
+int n = 10;
+int *p = &n;    // single Pointer
+int **q = &p;    // double Pointer
+
+- Triple Pointer
+==================
+int n = 10;
+int *p = &n;
+int **ptr = &p;
+int ***p1 = &ptr;
+
+- Fourth Pointer
+==================
+int n = 10;
+int *p = &n;
+int **ptr = &p;
+int ***p1 = &ptr;
+int ****p2 = &p1;
+
+
+
+And so on we can create multiple pointer as well as ...
+
+
+
+
+
+
+
+
+
+
+
