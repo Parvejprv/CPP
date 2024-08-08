@@ -1,0 +1,5 @@
+1. Merge Sort techniques using recursion.
+2. Sort the given non-decreasing (Ascending order) elements of the array.
+
+
+
