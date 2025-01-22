@@ -14,7 +14,7 @@ int main() {
 
   while (num > 0) {
     rem = num % 10;
-    num = num / 10;
+    num = num / 10; 
     ans = rem * mul + ans;
     mul = mul*2;
   }
