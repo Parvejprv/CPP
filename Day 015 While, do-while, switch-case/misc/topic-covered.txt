@@ -3,7 +3,8 @@
 ************************************************************
 
 1). Loop (While & do-while)
-2). break and continue Statement
+2). Switch case statement
+3). break and continue Statement
 
 
 ************************************************************/
