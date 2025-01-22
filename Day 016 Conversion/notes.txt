@@ -1,0 +1,99 @@
+
+Number System:-
+---------------
+Number System is used to convert the number from one number system to another number system, it uses a base or radix to represent it.
+Or
+A number system is a method to represent numbers mathematically. It can use arithmetic operations to represent every number uniquely. To represent a number, it requires a base or radix.
+
+There are four common types of number system are-
+1.	Decimal number system or Base 10 number system
+2.	Binary number system or Base 2 number system
+3.	Octal number system or Base 8 number system
+4.	Hexadecimal number system or Base 16 number system
+
+
+Let consider an example of having five different number as 3,6,2,4,5 and want to make a number (36245) of using that digits. Then lets conside how it gonna execute or explain inside that i.e. How it can be calculated using mathmatical.
+
+Explanation:
+
+here is the explanation related to that number
+
+initially, resultant(ans) = 0
+1). For first time 
+  ans = (ans * 10) + num
+  ans = 0*10 + 3 = 3
+  - here we multiply the ans = 0 with 10 and add the next number 3, so that result would be 3.
+2). For second time 3*10+6 = 36
+  - here we multiply the previous resultant(ans) = 3 with 10 and add the next digit that is 6, so that ans would be 36.
+3). For third time 36*10 + 2 = 362
+  - here we multiply the previous resultant(ans) = 36 with 10 and add the next digit that is 2, so that ans would be 362.
+4). For fourth time 362*10 + 4 = 3624
+  - here we multiply the previous resultant(ans) = 3624 with 10 and add the next digit that is 2, so that ans would be 3624.
+5). For third time 3624*10 + 5 = 36245
+  - here we multiply the previous resultant(ans) = 3624 with 10 and add the next digit that is 5, so that ans would be 36245.
+
+
+
+
+Note:-
+- The above number also could be written as,
+ 36245 =  3*10^4 + 6*10^3 + 2*10^2 + 4*10^1 + 5*10^0
+
+- So that we obtain a formula as, (initially ans = 0)
+  ans = ans * 10 + num;
+
+
+
+
+
+Ex 2. Here is the another example
+
+Here is a number 2946 is given you have to form the number 6492 in reverse order.
+
+
+here are the steps that you need to follow the follow,
+  ans = 0     initially ans would be initialize with 0
+  ans = 6 * 1 + 0 = 6
+  ans =  4 * 10 + 6 = 46
+  ans =  9 * 100 + 46 = 946
+  ans =  2 * 1000 + 946 = 2946
+
+-----------------------------------------------------------
+  so, that we can say that we obtain a formula for it as-
+  ans = num*10^i + ans;
+-----------------------------------------------------------
+
+
+Now, for Decimal to binary conversion we need to specify the same previsous formula with a small changes into that,
+
+Let,
+N = 13
+
+-------------
+2 | 13 | rem
+-------------
+2 | 6  | 1
+-------------
+2 | 3  | 0
+-------------
+2 | 1  | 1
+-------------
+  | 0  | 1
+
+
+if, I write these reminder from bottom to up that could be the binary representation of decimal number,
+
+num (bin) = 1101
+
+-----------------------------------------------------------
+for this we need to just modify the above formula a bit only,
+
+ans = 0
+[ ans = rem*10^i + ans ]
+
+
+
+
+
+
+
